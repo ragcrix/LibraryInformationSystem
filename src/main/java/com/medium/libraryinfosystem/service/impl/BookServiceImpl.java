@@ -1,6 +1,6 @@
 package com.medium.libraryinfosystem.service.impl;
 
-import com.medium.libraryinfosystem.model.Book;
+import com.medium.libraryinfosystem.model.lombok.Book;
 import com.medium.libraryinfosystem.repository.BookRepository;
 import com.medium.libraryinfosystem.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;

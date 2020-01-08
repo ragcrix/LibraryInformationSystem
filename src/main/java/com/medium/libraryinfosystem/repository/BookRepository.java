@@ -1,6 +1,6 @@
 package com.medium.libraryinfosystem.repository;
 
-import com.medium.libraryinfosystem.model.Book;
+import com.medium.libraryinfosystem.model.lombok.Book;
 import org.springframework.data.repository.CrudRepository;
 
 import java.util.List;

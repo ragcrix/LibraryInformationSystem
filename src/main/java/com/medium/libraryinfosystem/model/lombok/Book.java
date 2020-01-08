@@ -1,4 +1,4 @@
-package com.medium.libraryinfosystem.model;
+package com.medium.libraryinfosystem.model.lombok;
 
 import lombok.Data;
 

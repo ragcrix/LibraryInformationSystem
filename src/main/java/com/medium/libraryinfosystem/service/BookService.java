@@ -1,6 +1,6 @@
 package com.medium.libraryinfosystem.service;
 
-import com.medium.libraryinfosystem.model.Book;
+import com.medium.libraryinfosystem.model.lombok.Book;
 
 import java.util.List;
 
