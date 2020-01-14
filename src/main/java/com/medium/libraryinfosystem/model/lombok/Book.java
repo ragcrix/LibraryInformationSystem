@@ -1,22 +1,23 @@
 package com.medium.libraryinfosystem.model.lombok;
 
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 /**
  * @author ragcrix
  */
 
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @Entity
 @Table
 public class Book {
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String writer;
     private String name;

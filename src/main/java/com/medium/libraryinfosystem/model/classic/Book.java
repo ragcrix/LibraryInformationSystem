@@ -1,16 +1,14 @@
 package com.medium.libraryinfosystem.model.classic;
 
-import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-import javax.persistence.Table;
 import java.util.Objects;
 
 /**
  * @author ragcrix
  */
-@Entity
-@Table
+//@Entity
+//@Table
 public class Book {
     @Id
     @GeneratedValue
